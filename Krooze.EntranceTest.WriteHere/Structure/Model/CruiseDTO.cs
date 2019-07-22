@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Xml.Serialization;
@@ -50,6 +51,7 @@ namespace Krooze.EntranceTest.WriteHere.Structure.Model
         [XmlAttribute("PaxID")]
         public string PassengerCode { get; set; }
 
+        [JsonIgnore]
         public CruiseDTO Cruise
         {
             get

@@ -11,7 +11,7 @@ namespace Krooze.EntranceTest.Web.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class TRanslateXMLController : ControllerBase
+    public class TranslateXMLController : ControllerBase
     {
         [HttpGet]
         public CruiseDTO TranslateXml() =>
