@@ -4,9 +4,10 @@ using Krooze.EntranceTest.WriteHere.Structure.Model;
 
 namespace Krooze.EntranceTest.WriteHere.Structure.Implementations
 {
-    public class Company3 :IGetCruise
+    public class Company3 : IGetCruise
     {
         public int CruiseCompanyCode => 3;
+
         public List<CruiseDTO> GetCruises(CruiseRequestDTO request)
         {
             return new List<CruiseDTO>()
